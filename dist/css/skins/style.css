@@ -1,0 +1,218 @@
+.pt-4 {
+    color: #000 !important;
+    font-weight: 800;
+    font-size: 1.9rem;
+    margin-top: 0.5rem;
+}
+.color-gradient {
+    background: rgb(227, 145, 9);
+    background: linear-gradient(
+        90deg,
+        rgba(227, 145, 9, 1) 0%,
+        rgba(13, 39, 75, 1) 39%
+    );
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 10% auto;
+    border-top: 4px solid #c6a213;
+    border-bottom: 4px solid #c6a213;
+}
+
+.login-page,
+.register-page {
+    background: #ffffff !important;
+}
+.title-bottom {
+    margin-top: 4rem;
+}
+.margin-bottom {
+    display: flex;
+    justify-content: center !important;
+}
+.login-logo a,
+.register-logo a {
+    color: #ffffff !important;
+}
+.login-box-body,
+.register-box-body {
+    background: none;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+.btn-facebook {
+    color: #000;
+    background-color: #efefef;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.has-feedback .form-control {
+    padding-right: 42.5px;
+}
+.form-control {
+    background-color: #3d526f;
+    color: #ffffff;
+}
+.main-header .navbar {
+    margin-left: 0 !important;
+    min-height: 85px;
+}
+.main-header .navbar-custom-menu,
+.main-header .navbar-right {
+    float: inherit;
+}
+.skin-blue .main-header .navbar {
+    background-color: #0a2242;
+    color: #1e282c !important;
+}
+.skin-blue .wrapper,
+.skin-blue .main-sidebar,
+.skin-blue .left-side {
+    background-color: #efefef;
+    color: #1e282c !important;
+}
+.skin-blue .sidebar-menu > li:hover > a,
+.skin-blue .sidebar-menu > li.active > a,
+.skin-blue .sidebar-menu > li.menu-open > a {
+    background-color: #efefef !important;
+    color: #1e282c;
+}
+.skin-blue .sidebar-menu .treeview-menu > li.active > a,
+.skin-blue .sidebar-menu .treeview-menu > li > a:hover {
+    background-color: #efefef !important;
+    color: #1e282c;
+}
+.skin-blue .sidebar-menu .treeview-menu > li > a {
+    background-color: #efefef !important;
+    color: #1e282c;
+}
+.skin-blue .sidebar a {
+    color: #1e282c;
+}
+.skin-blue .sidebar-menu > li.header {
+    /* color: #4b646f; */
+    background: none;
+}
+
+.skin-blue .wrapper,
+.skin-blue .main-sidebar,
+.skin-blue .left-side {
+    background-color: #efefef;
+    color: #1e282c !important;
+    border-right: 2.5px solid #a9a9a9;
+}
+.text-info3 {
+    color: #ffffff;
+    text-align: center;
+    display: inline !important;
+}
+.img-p {
+    width: 30%;
+}
+.img-p1 {
+    width: 25%;
+}
+.text-14 {
+    margin-top: 0.5rem;
+    width: 40%;
+}
+.text-im2 {
+    text-align: center;
+    width: 30%;
+}
+.sidebar {
+    margin-top: 6rem !important;
+}
+.img-unam {
+    text-align: center;
+    margin-top: 2rem;
+}
+.userlog {
+    background-color: #0a2242;
+    border-top: 1.5px solid #c6a213;
+    height: 2rem;
+}
+.center-uname {
+    text-align: center;
+}
+.img-unamm {
+    max-width: 100%;
+    text-align: center;
+}
+.img-unamm2 {
+    max-width: 80%;
+    text-align: center;
+}
+
+.user-tect5 {
+    color: #ffffff;
+    margin-left: 15rem;
+}
+#user23::placeholder {
+    color: white;
+}
+.container-data {
+    width: 80%;
+}
+.fontc {
+    font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        /* float: none !important; */
+        display: flex !important;
+        width: 100%;
+        /* margin-top: -5rem; */
+    }
+    .sidebar-toggle {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .text-info3 {
+        color: #ffffff;
+        /* text-align: left; */
+        display: inline-block !important;
+    }
+    .skin-blue .main-header .navbar .sidebar-toggle {
+        margin-left: 2rem;
+    }
+}
+@media (max-width: 825px) {
+    .fon {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 991px) {
+    .text-info3 {
+        color: #ffffff;
+        /* text-align: left; */
+        display: inline-block !important;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-custom-menu .navbar-nav {
+        /* margin: 0; */
+        float: left;
+    }
+}
+@media (max-width: 708px) {
+    .text-14 {
+        display: none !important;
+    }
+}
+@media (max-width: 413px) {
+    .text-im2 {
+        display: none !important;
+    }
+}
+@media (max-width: 389px) {
+    .img-p {
+        margin-top: -5rem !important;
+    }
+}
+.main-header .logo {
+    height: 0px;
+}
